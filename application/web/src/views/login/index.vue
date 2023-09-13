@@ -20,7 +20,7 @@
       <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">立即进入</el-button>
 
       <div class="tips">
-        <span style="margin-right:20px;">请选择不同的用户角色体验系统</span>
+        <span style="margin-right:20px;">请选择不同的用户进入系统</span>
       </div>
 
     </el-form>
@@ -84,7 +84,7 @@ $light_gray:#eee;
 .login-container {
   min-height: 100%;
   width: 100%;
-  background-color: $bg;
+  background-color: #601c61;
   overflow: hidden;
 
   .login-form {
@@ -99,7 +99,7 @@ $light_gray:#eee;
    padding: 20px 0px 30px 0px;
    min-height: 100%;
    width: 100%;
-   background-color: $bg;
+   background-color: #601c61;
    overflow: hidden;
    text-align: center;
   }
