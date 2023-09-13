@@ -28,7 +28,7 @@
 
 ### 界面展示
 
-![](https://s2.loli.net/2023/05/26/rTACtYjLPn2WOfN.png)
+![](mainpage.png)
 
 
 
