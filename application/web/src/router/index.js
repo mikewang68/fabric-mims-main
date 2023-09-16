@@ -55,6 +55,20 @@ export const constantRoutes = [{
       icon: 'realestate'
     }
   }]
+},
+{
+  path: '/',
+  component: Layout,
+  redirect: '/order',
+  children: [{
+    path: 'order',
+    name: 'order',
+    component: () => import('@/views/order/list/index'),
+    meta: {
+      title: '系统介绍',
+      icon: 'order'
+    }
+  }]
 }
 ]
 
