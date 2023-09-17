@@ -65,7 +65,7 @@ export const constantRoutes = [{
     name: 'order',
     component: () => import('@/views/order/list/index'),
     meta: {
-      title: '系统介绍',
+      title: '用户数量与功能',
       icon: 'order'
     }
   }]
